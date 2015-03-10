@@ -1,8 +1,11 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
-//apply plugin: 'application'
+apply plugin: 'application'
 
-//mainClassName = 'hello.Helloworld'
+mainClassName = 'hello.Helloworld'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 repositories {
     mavenCentral()
